@@ -1,0 +1,532 @@
+
+/* html5 reset css file */
+@import url('html5reset.css');
+
+/* standard css for desktop browsers */
+body {
+	/*background-image: url(http://www.unsigneddesign.com/Rock%20and%20Concrete%20Textures/15.jpg);
+	background-size: 100%;*/
+	background-color: #E07F66;
+}
+::selection {
+    color: #DBDBFF; 
+    background: transparent;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	color: black;
+}
+header[role=banner]{
+	background-image: url(http://takingnotes.squarespace.com/storage/pipi.JPG);
+	background-size: 100%;
+	position: relative;
+	height: 250px;
+	margin: 0px auto;
+	border-bottom: 1px solid white;
+	background-repeat: no-repeat;
+}
+header[role=banner] h1 {
+	font-size: 70px;
+	font-family: 'Josefin Slab', Helvetica, Arial, sans-serif;
+	font-weight: 800;
+	color: white;
+	text-align: right;
+	padding: 40px 8.5% 0px 0px;
+}
+header[role=banner] h2{
+	text-align: right;
+	font-size: 20px;
+	color: white;
+	padding: 0px 8.5% 0px 0px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: 300;
+}
+abbr:hover{
+	cursor: crosshair;
+}
+/*h2:abbr:[title="cascading style sheets"]{
+	color:#E07F66; its not working
+}*/
+.summary {
+	height: auto;
+	background-color:#E69985;
+	width: 70%;
+	float: right;
+	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 200;
+	border-bottom: solid 1px white;
+}
+.summary abbr{
+	border-width: 0px;
+}
+.summary p:first-child{
+	color: black;
+	font-size: 20px;
+	text-align: left;
+	padding: 30px 10% 0px 10%;
+}
+.summary p:nth-child(2) {
+	color: black;
+	font-size: 20px;
+	text-align: left;
+	padding: 30px 10% 30px 10%;
+	font-style: italic;
+}
+.summary p:nth-child(2) a:hover{
+	border: 1px solid white;
+	padding: .2%;
+}
+
+.preamble{
+	height: auto;
+	color: white;
+	background-color: #E69985;
+	float: right;
+	width: 70%;
+	position: relative;
+	border-bottom: solid 1px white;
+	transition: ease-in-out, color 1s;
+}
+.preamble:hover{
+	color: black;
+}
+.preamble h3{
+	float: left;
+	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 100;
+	font-size: 35px;
+	padding: 30px 30px 30px 10%;
+}
+.preamble p{
+	font-size: 20px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	text-align: justify;
+	float: right;
+	padding: 0px 10% 3% 10%;
+}
+.preamble abbr{
+	border-width: 0px;
+}
+.explanation{
+	height:auto;
+	color: white;
+	background-color: #EBAD9D;
+	float: right;
+	width: 70%;
+	 opacity: 1;
+   transition: opacity 1s ease-in-out, color 2s;
+}
+.explanation:hover{
+	opacity: .5;
+	color: black;
+}
+.explanation h3{
+	float: left;
+	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 100;
+	font-size: 35px;
+	padding: 30px 30px 30px 10%;
+}
+.explanation p{
+	font-size: 20px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	float: right;
+	padding: 0px 10% 3% 10%;
+	text-align: justify;
+}
+.explanation abbr{
+	border-width: 0px;
+}
+.participation{
+	height: auto;
+	color: white;
+	background-color: #EFBDB1;
+	float: right;
+	width: 70%;
+	border-bottom: solid 1px white;
+	transition: ease-in-out, color 1s;
+}
+.participation:hover{
+	color: black;
+}
+.participation h3{
+	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 100;
+	float: left;
+	font-size: 35px;
+	padding: 30px 30px 30px 10%;
+}
+.participation p{
+	font-size: 20px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	float: right;
+	padding: 0px 10% 3% 10%;
+	
+	text-align: justify;
+}
+.participation abbr{
+	border-width: 0px;
+}
+.benefits, .requirements{
+		opacity: 1;
+   transition: opacity 1s ease-in-out, color 2s;
+}
+.benefits{
+	height: auto;
+	color: white;
+	background-color: #F2CAC1;
+	float: right;
+	width: 70%;
+	opacity: 1;
+   transition: ease-in-out, color 1s;
+}
+.benefits:hover, .requirements:hover{
+	color: black;
+}
+.benefits h3{
+	float: left;
+	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 100;
+	font-size: 35px;
+	padding: 30px 30px 10px 10%;
+}
+.benefits p{
+	font-size: 20px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	float: right;
+	padding: 0px 10% 3% 10%;
+	text-align: justify;
+}
+.benefits abbr{
+	border-width: 0px;
+}
+.requirements{
+	height: auto;
+	color: white;
+	background-color: #F6DAD4;
+	float: right;
+	width: 70%;
+	opacity: 1;
+	padding: 0px 0px 10% 0px;
+}
+.requirements h3{
+	font-family:'helvetica neue', Helvetica, Arial, sans-serif;
+	font-weight: 100;
+	float: left;
+	font-size: 35px;
+	padding: 30px 30px 30px 10%;
+}
+.requirements p{
+	font-size: 20px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	float: right;
+	padding: 0px 10% 3% 10%;
+	text-align: justify;
+}
+.requirements abbr{
+	border-width: 0px;
+}
+.wrapper{
+	width: 30%;
+	background: linear-gradient(#F6DAD4, #E07F66);
+}
+.wrapper li{
+	height: auto;
+}
+.select{
+	position: relative;
+	padding: 20px 10px 20px 10px;
+	font-size: 20px;
+	color: white;
+	font-family: "Josefin Slab", Helvetica, Arial, sans-serif;
+	font-weight: 600;
+	border-bottom: solid white 1px;
+}
+.design-selection{
+	position: relative;
+}
+.design-selection [role=navigation]{
+	color: white;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: 300;
+}
+.design-selection [role=navigation] a{
+	color: #E07F66;
+	text-decoration: none;
+	transition: color .3s, ease-in-out;
+}
+.design-selection [role=navigation] a:hover{
+	color: #F6DAD4;
+}
+.design-name {
+	font-size: 30px;
+	font-family: 'Josefin Slab', Helvetica, Arial, sans-serif;
+	font-weight: 600
+}
+.designer-name{
+	font-size: 20px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: 300
+}
+.design-selection [role=navigation] li:first-child{
+	font-size: 25px;
+	padding: 10% 20% 10% 20%;
+	border-bottom: 1px solid white;
+}
+.design-selection [role=navigation] li:nth-child(2){
+	font-size: 25px;
+	padding: 10% 20% 10% 20%;
+	border-bottom: 1px solid white;
+}
+[role=navigation] li:nth-child(3){
+	font-size: 25px;
+	padding: 10% 20% 10% 20%;
+	border-bottom: 1px solid white;
+}
+[role=navigation] li:nth-child(4){
+	font-size: 25px;
+	padding: 10% 20% 10% 20%;
+	border-bottom: 1px solid white;
+}
+[role=navigation] li:nth-child(5){
+	font-size: 25px;
+	padding: 10% 20% 10% 20%;
+	border-bottom: 1px solid white;
+}
+[role=navigation] li:nth-child(6){
+	font-size: 25px;
+	padding: 10% 20% 10% 20%;
+	border-bottom: 1px solid white;
+}
+[role=navigation] li:nth-child(7){
+	font-size: 25px;
+	padding: 10% 20% 10% 20%;
+	border-bottom: 1px solid white;
+}
+[role=navigation] li:nth-child(8){
+	font-size: 25px;
+	padding: 10% 20% 10% 20%;
+	border-bottom: 1px solid white;
+}
+.design-selection h3{
+	font-size: 35px;
+	text-align: center;
+}
+.design-archives h3{
+	font-size: 35px;
+	text-align: center;
+	color: white;
+	margin: 20% 0px 30px 0px;
+	font-family: "Josefin slab" Helvetica, Arial, sans-serif;
+	font-weight: 800
+}
+.design-archives a{
+	font-size: 20px;
+	line-height: 30px;
+	margin: 20px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: 200;
+}
+.design-archives li{
+	border-bottom: 1px solid black;
+	margin: 10px;
+}
+.zen-resources h3{
+	font-size: 35px;
+	text-align: center;
+	color: white;
+	margin: 20% 0px 30px 0px;
+	font-family: "Josefin slab" Helvetica, Arial, sans-serif;
+	font-weight: 800
+}
+.zen-resources a{
+	font-size: 20px;
+	line-height: 30px;
+	margin: 20px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: 200;
+}
+.zen-resources li{
+	border-bottom: 1px solid white;
+	margin: 10px 0px 10px 0px;
+}
+.zen-resources abbr{
+	border-width: 0px;
+}
+footer{
+	position: fixed;
+	width: 100%;
+	height: 5%;
+	display: inline-block;
+	text-align: center;
+	background-color: #F6DAD4;
+	bottom: 0px;
+	z-index: 2;
+	transition: height 1.5s, font-size 1.5s, background-color 1.5s, padding 1.5s;
+}
+footer:hover{
+	height: 11.5%;
+	font-size: 400%;
+	background-color: #E69985;
+}
+footer a{
+	text-decoration: none;
+	font-size: 200%;
+	padding: 1% 2% 1% 1%;
+	color: white;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 100;
+}
+
+/* override css for mobile browsers */
+@media all and (min-width:400px) and (max-width:1200px) {
+	body {
+		font-size:1em;
+		background-color:#F6DAD4;
+	}
+footer a{
+	text-decoration: none;
+	height: 5%;
+	font-size: 170%;
+	padding: 1% 2% 1% 1%;
+	color: white;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 100;
+}
+footer:hover{
+	height: 10%;
+	font-size: 220%;
+	background-color: #E69985;
+	padding: 20px 0px 0px 0px;
+}
+}
+@media all and (min-width:320px) and (max-width:700px) {
+	body {
+		font-size:1em;
+		background-color:#F6DAD4;
+
+	}
+header[role=banner] h1 {
+	font-size: 50px;
+	text-align: center;
+	float: none;
+	padding: 40px 0px 0px 0px;
+}
+header[role=banner] h2{
+	text-align: center;
+	font-size: 23px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	float: none;
+}
+.summary{
+	width: 100%;
+	border: none;
+	color: white;
+}
+.summary h3{
+	text-align: center;
+	float: none;
+}
+.summary p{
+	text-align: center;
+}
+.preamble{
+	width: 100%;
+	border: none;
+}
+.preamble h3{
+	text-align: center;
+	float: none;
+}
+.explanation{
+	width: 100%;
+	border: none;
+}
+.explanation h3{
+	text-align: center;
+	float: none;
+}
+.participation{
+	width: 100%;
+	border: none;
+}
+.participation h3{
+	text-align: center;
+	float: none;
+}
+.benefits{
+	width: 100%;
+	border: none;
+}
+.benefits h3{
+	text-align: center;
+	float: none;
+}
+.requirements{
+	width: 100%;
+	letter-spacing: .8px;
+	border: none;
+}
+.requirements h3{
+	text-align: center;
+	float: none;
+}
+.requirements p:last-child{
+	text-align: center;
+	float: none;
+	margin: 20px 0px 10px 0px;
+}
+.requirements p:last-child a{
+	color: black;
+}
+.requirements p:last-child a:hover{
+	opacity: .5;
+}
+.benefits:hover, .requirements:hover, .participation:hover, .explanation:hover, .preamble:hover{
+	color:white;
+}
+.wrapper{
+	display: inline-block;
+	width: 100%;
+}
+.design-selection [role=navigation] li:first-child{
+	border: none;
+}
+.design-selection [role=navigation] li:nth-child(2){
+	border: none;
+}
+.design-selection [role=navigation] li{
+	border: none;
+}
+.zen-resources li, .design-archives li{
+	text-align: center;
+	background-color: #F6DAD4;
+	margin: 20px;
+	padding: 10px;
+	border: solid white 1px;
+}
+.zen-resources h3, .design-archives h3{
+	font-size: 300%;
+	margin: 20px 0px 0px 0px;
+}
+.zen-resources li:last-child{
+	margin: 0px 20px 75px 20px;
+}
+.footer{
+	height: 5%;
+	font-size: 110%;
+}
+footer:hover{
+	font-size: 110%;
+	height: 5%;
+	padding: 10px;
+}
