@@ -2,7 +2,6 @@
 /* html5 reset css file */
 @import url('html5reset.css');
 
-/* standard css for desktop browsers */
 body {
 	/*background-image: url(http://www.unsigneddesign.com/Rock%20and%20Concrete%20Textures/15.jpg);
 	background-size: 100%;*/
@@ -24,7 +23,7 @@ header[role=banner]{
 	background-size: 100%;
 	position: relative;
 	height: 250px;
-	margin: 0px auto;
+	margin: 0px;
 	border-bottom: 1px solid white;
 	background-repeat: no-repeat;
 }
@@ -35,6 +34,7 @@ header[role=banner] h1 {
 	color: white;
 	text-align: right;
 	padding: 40px 8.5% 0px 0px;
+	margin: 0px;
 }
 header[role=banner] h2{
 	text-align: right;
@@ -47,9 +47,6 @@ header[role=banner] h2{
 abbr:hover{
 	cursor: crosshair;
 }
-/*h2:abbr:[title="cascading style sheets"]{
-	color:#E07F66; its not working
-}*/
 .summary {
 	height: auto;
 	background-color:#E69985;
@@ -250,6 +247,7 @@ abbr:hover{
 	font-family: "Josefin Slab", Helvetica, Arial, sans-serif;
 	font-weight: 600;
 	border-bottom: solid white 1px;
+	margin: 0px;
 }
 .design-selection{
 	position: relative;
@@ -375,7 +373,7 @@ footer{
 }
 footer:hover{
 	height: 11.5%;
-	font-size: 400%;
+	font-size: 300%;
 	background-color: #E69985;
 }
 footer a{
