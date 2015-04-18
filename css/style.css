@@ -239,6 +239,7 @@ abbr:hover{
 	background: linear-gradient(#F6DAD4, #E07F66);
 }
 .wrapper li{
+	list-style-type: none;
 	height: auto;
 }
 .select{
