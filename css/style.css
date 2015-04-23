@@ -6,6 +6,8 @@ body {
 	/*background-image: url(http://www.unsigneddesign.com/Rock%20and%20Concrete%20Textures/15.jpg);
 	background-size: 100%;*/
 	background-color: #E07F66;
+	margin: 0;
+	padding: 0;
 }
 ::selection {
     color: #DBDBFF; 
@@ -40,7 +42,7 @@ header[role=banner] h2{
 	text-align: right;
 	font-size: 20px;
 	color: white;
-	padding: 0px 8.5% 0px 0px;
+	padding: 40px 8.5% 0px 0px;
 	font-family: Helvetica, Arial, sans-serif;
 	font-weight: 300;
 }
@@ -234,10 +236,20 @@ abbr:hover{
 .wrapper{
 	width: 30%;
 	background: linear-gradient(#F6DAD4, #E07F66);
+
+
+}
+.wrapper ul{ 
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
 }
 .wrapper li{
 	list-style-type: none;
 	height: auto;
+	padding: 0px;
+	margin: 0px;
+
 }
 .select{
 	position: relative;
@@ -268,12 +280,12 @@ abbr:hover{
 .design-name {
 	font-size: 30px;
 	font-family: 'Josefin Slab', Helvetica, Arial, sans-serif;
-	font-weight: 600
+	font-weight: 600;
 }
 .designer-name{
 	font-size: 20px;
 	font-family: Helvetica, Arial, sans-serif;
-	font-weight: 300
+	font-weight: 300;
 }
 .design-selection [role=navigation] li:first-child{
 	font-size: 25px;
@@ -325,7 +337,7 @@ abbr:hover{
 	color: white;
 	margin: 20% 0px 30px 0px;
 	font-family: "Josefin slab" Helvetica, Arial, sans-serif;
-	font-weight: 800
+	font-weight: 800;
 }
 .design-archives a{
 	font-size: 20px;
@@ -344,7 +356,7 @@ abbr:hover{
 	color: white;
 	margin: 20% 0px 30px 0px;
 	font-family: "Josefin slab" Helvetica, Arial, sans-serif;
-	font-weight: 800
+	font-weight: 800;
 }
 .zen-resources a{
 	font-size: 20px;
